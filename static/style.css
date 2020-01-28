@@ -1,0 +1,86 @@
+/* # * box-sizing: border-box
+# form max-width height margin padding background border
+# h2 color font align
+# label block
+# input block width100 line-height  */
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,600&display=swap&subset=cyrillic');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+}
+
+form {
+  border: 5px solid black;
+  width: 30vw;
+  margin: 10px 35vw 0 35vw;
+  background-color: #cde;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+a {
+  border: 5px solid;
+  padding: 4px;
+  background-color: #C5E1A5;
+  border-radius: 4px;
+  color: #333333;
+  text-decoration: none;
+  display: block;
+  width: 30vw;
+  margin: 10px 35vw;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+label {
+  display: block;
+  padding: 4px 0px;
+  text-align: center;
+/*   border: 1px solid; */
+}
+
+input {
+  display: block;
+  width: 90%;
+  margin: 0 5% 10px 5%;
+  padding: 0px 4px;
+/*   border: 1px solid; */
+}
+
+input[type="submit"] {
+  background-color: #90A4AE;
+  padding: 5px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+}
+
+.error {
+    border: 1px solid;
+    width: 30vw;
+    margin: 10vh 35vw 0 35vw;
+    background-color: rgb(158, 54, 75);
+    color: #111122;
+    border-radius: 8px;
+    padding: 4px 0;
+    text-align: center;
+}
+
+ol {
+  width: 30vw;
+  margin: 10px 35vw 10px 35vw;
+
+}
